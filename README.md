@@ -14,11 +14,11 @@
   </p>
 </div>
 
-## 📖 About The Project
+## About The Project
 
 LibSmart is a web-based **Library Management System** developed using **Core PHP** and the **MVC (Model-View-Controller)** architecture. It is designed to streamline library operations for librarians, staff, and readers, providing an intuitive interface for book management, borrowing and returning workflows, as well as an AI-powered chatbot consultant using the Gemini API.
 
-## ✨ Features
+## Features
 
 - **Role-Based Access Control**: Different access privileges for Readers, Staff, and Managers/Librarians.
 - **Book & Category Management**: Seamlessly add, update, delete, and categorize books.
@@ -29,7 +29,7 @@ LibSmart is a web-based **Library Management System** developed using **Core PHP
 - **AI Chatbot**: Integrated with the Google Gemini API to provide an intelligent virtual assistant for readers.
 - **Email Notifications**: Built-in support for sending emails (e.g., account recovery, notifications) using PHPMailer.
 
-## 🛠 Built With
+## Built With
 
 - **Backend**: Core PHP (Object-Oriented & MVC)
 - **Database**: MySQL
@@ -38,7 +38,7 @@ LibSmart is a web-based **Library Management System** developed using **Core PHP
 - **Packages**: PHPMailer (via Composer)
 - **Server Environment**: Laragon / XAMPP / WAMP
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these simple instructions to set up the project locally on your machine.
 
@@ -94,7 +94,7 @@ Follow these simple instructions to set up the project locally on your machine.
    ];
    ```
 
-## 🔑 Default Accounts
+## Default Accounts
 
 If you used the `init_db.php` script, the following default accounts are created:
 
@@ -105,7 +105,7 @@ If you used the `init_db.php` script, the following default accounts are created
   - Username: `reader`
   - Password: `123456`
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 LibSmart/
@@ -122,6 +122,6 @@ LibSmart/
 └── sql_LibSmart.sql# Full database schema & seed data dump
 ```
 
-## 📄 License
+## License
 
 Distributed under the MIT License.
